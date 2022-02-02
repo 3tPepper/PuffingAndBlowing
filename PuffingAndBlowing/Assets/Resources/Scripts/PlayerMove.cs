@@ -61,6 +61,7 @@ public class PlayerMove : MonoBehaviour
                 }
 
                 this.transform.position = tmp;
+                AudioControll.instance.AudioSwitch("WALK");
             }
             else
             {
@@ -80,6 +81,7 @@ public class PlayerMove : MonoBehaviour
             isCatch = true;
             this.transform.position = collision.transform.position;
             animator.SetInteger("move", 3);
+            AudioControll.instance.AudioSwitch("CATCH");
         }
     }
     private void OnTriggerExit(Collider collision)

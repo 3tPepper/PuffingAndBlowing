@@ -55,12 +55,16 @@ public class GameManager : MonoBehaviour
         {
             PausePanel.SetActive(false);
         }
-        
+        AudioControll.instance.AudioSwitch("UICLICK");
+
+
     }
 
     public void GameExit()
     {
+        AudioControll.instance.AudioSwitch("UICLICK");
         Application.Quit();
         Debug.Log("Quit");
+        
     }
 }
