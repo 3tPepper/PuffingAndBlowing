@@ -10,5 +10,3 @@
 
 최근 업데이트(Latest Update): 2022-02-02<br>
 최신 버전(Latest Version): v1.0<br>
-
-이용 가능 범위(license): 만약 개발자의 이름을 표기한다면 재가공 및 재배포가 허용됩니다.(상업적 이용 불가) If the developer's name is indicated, reprocessing and redistribution are allowed. (Not commercially available)
